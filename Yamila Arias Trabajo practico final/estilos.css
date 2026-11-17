@@ -1,0 +1,213 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff0f5;
+}
+
+.ayuda {
+ padding: 35px;
+  text-align: center;
+}
+.ayuda h1 {
+ color: #d66b91;
+font-size: 40px;
+}
+.ayuda h2 {
+color: #b85d80;
+}
+.introduccion {
+ color: #76515f;
+font-size: 17px;
+ margin-bottom: 35px;
+}
+.subtitulo {
+ margin-top: 50px;
+ margin-bottom: 25px;
+}
+.contenedor {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: stretch;
+flex-wrap: wrap;
+gap: 25px;
+}
+.tarjeta {
+    background-color: white;
+    width: 250px;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0px 3px 10px #e8b8ca;
+}
+.tarjeta img {
+width: 100%;
+height: 180px;
+object-fit: cover;
+border-radius: 12px;
+}
+.tarjeta h3 {
+    color: #d66b91;
+}
+.tarjeta p {
+    color: #654b55;
+    line-height: 1.5;
+}
+.organizaciones {
+display: flex;
+justify-content: center;
+align-items: stretch;
+flex-wrap: wrap;
+gap: 25px;
+}
+.fundacion {
+background-color: white;
+width: 250px;
+padding: 20px;
+border-radius: 15px;
+box-shadow: 0px 3px 10px #e8b8ca;
+}
+
+.fundacion h3 {
+color: #d66b91;
+}
+.fundacion p {
+color: #654b55;
+line-height: 1.5;
+}
+.fundacion a {
+display: inline-block;
+background-color: #e99bb7;
+color: white;
+padding: 10px;
+border-radius: 10px;
+text-decoration: none;
+}
+.formas {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+gap: 20px;
+margin-top: 25px;
+}
+.formas div {
+background-color: #f9d8e5;
+width: 220px;
+padding: 15px;
+border-radius: 15px;
+}
+.formas h3 {
+color: #b85d80;
+}
+
+
+.presentacion {
+background: linear-gradient(135deg, #ffe0eb, #fff0f5);
+padding: 70px 25px;
+text-align: center;
+border-radius: 20px;
+ margin: 30px auto;
+ max-width: 1100px;
+}
+.presentacion h2 {
+color: #c65b83;
+font-size: 32px;
+margin-bottom: 20px;
+}
+.presentacion p {
+color: #66545c;
+font-size: 18px;
+line-height: 1.7;
+max-width: 750px;
+margin: 0 auto 25px;
+}
+.boton {
+display: inline-block;
+background-color: #e98eae;
+color: white;
+text-decoration: none;
+padding: 13px 25px;
+border-radius: 25px;
+font-weight: bold;
+transition: 0.3s;}
+.boton:hover {
+background-color: #cf6e94;
+}
+.inicio-info {
+text-align: center;
+padding: 35px 20px;
+}
+.inicio-info h2 {
+color: #c65b83;
+font-size: 27px;
+margin-bottom: 15px;
+}
+.inicio-info > p {
+color: #66545c;
+font-size: 17px;
+max-width: 800px;
+margin: 0 auto 30px;
+line-height: 1.6;
+}
+.inicio-info .contenedor {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: stretch;
+flex-wrap: wrap;
+gap: 25px;
+}
+.inicio-info .tarjeta {
+background-color: white;
+width: 250px;
+padding: 15px;
+border-radius: 15px;
+box-shadow: 0 4px 12px rgba(180, 100, 130, 0.15);
+}
+.inicio-info .tarjeta img {
+width: 100%;
+height: 180px;
+object-fit: cover;
+border-radius: 12px;
+}
+.inicio-info .tarjeta h3 {
+color: #c65b83;
+margin-top: 15px;
+}
+.inicio-info .tarjeta p {
+color: #66545c;
+ line-height: 1.5;
+
+}
+.invitacion {
+background-color: #fff0f5;
+text-align: center;
+padding: 45px 20px;
+margin: 35px auto;
+border-radius: 20px;
+max-width: 1050px;
+}
+.invitacion h2 {
+color: #c65b83;
+font-size: 28px;
+}
+.invitacion p {
+color: #66545c;
+ font-size: 17px;
+margin-bottom: 25px;
+line-height: 1.6;
+}
+@media (max-width: 600px) {
+.presentacion h2 {
+font-size: 25px;
+}
+.presentacion p {
+ font-size: 16px;
+}
+.inicio-info .tarjeta {
+width: 100%;
+max-width: 300px;
+}
+
+}
+
+
